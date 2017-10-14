@@ -1,0 +1,32 @@
+    <!-- Portfolio Grid Section -->
+    <section id="post">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <hr class="star-primary">
+          <h2>{{ page.title }}</h2>
+          <hr class="star-primary">
+          <ul class="list-inline item-details">
+            <li>Ghi chép:
+            <strong>{{ page.author }}
+            </strong>
+            
+            </li>
+            <li>Ngày:
+            <strong>{{ page.date | date: "%Y-%m-%d"}}
+            </strong>
+            </li>
+            
+            <li>Hoạt động:
+            <strong>{{ page.category }}
+            </strong>
+            </li>
+          </ul>
+          <hr class="star-primary">
+          <div class="entry text-left">
+            {{ content }}
+          </div>
+    </div>
+    </div>
+    </div>
+  </section>

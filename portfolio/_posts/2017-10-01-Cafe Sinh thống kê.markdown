@@ -1,12 +1,11 @@
 ---
 layout: default
-modal-id: 6
-date: 2017-10-01
-img: submarine.png
+modal-id: 1
+img: cafe_sinhthongke.jpg
 alt: image-alt
-project-date: 01/10/2014
+project-date: 01/10/2017
 author: Lê Thảo Nguyên
-category: Cafe Sinh thống kê
+category: cafe-sinh-thống-kê
 ---
 
 #### Địa điểm: 

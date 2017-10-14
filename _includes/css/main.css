@@ -35,7 +35,7 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
+/*
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -56,10 +56,11 @@ hr.star-primary:after {
     font-family: FontAwesome;
     font-size: 2em;
 }
-
+*/
 hr.star-light {
-    border-color: #fff;
+    border-color: #{{ site.color.primary }};
 }
+
 
 hr.star-light:after {
     color: #fff;
@@ -67,7 +68,7 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #fff;
 }
 
 hr.star-primary:after {

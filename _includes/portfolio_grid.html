@@ -1,15 +1,15 @@
 
     <!-- Portfolio Grid Section -->
-    <section class="success" id="portfolio">
+    <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Ghi chép</h2>
-                    <hr class="star-light">
+                    <h2>Hoạt động</h2>
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
+                {% for post in site.categories.portfolio %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
@@ -17,7 +17,10 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <center><p style='color: #{{ site.color.secondary }}'>
+                              <strong>{{ post.title }} ({{ post.project-date | date: '%m-%Y'}})</strong>
+                            </p></center> 
                         </a>
                     </div>
                 {% endfor %}
