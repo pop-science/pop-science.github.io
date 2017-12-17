@@ -9,10 +9,17 @@ category: business
 ---
 
 #### Nghiên cứu thị trường 
+
 #### Nghiên cứu lâm sàng và y tế công cộng 
+
 #### Đào tạo nâng cao nhân lực
+
 ##### Nghiên cứu
+
 ##### Quản lý nghiên cứu 
+
 ##### Phân tích dữ liệu 
+
 ##### Xuất bản và báo cáo 
+
 ##### Kỹ năng giao tiếp và trình bày khoa học 
