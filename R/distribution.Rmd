@@ -1,0 +1,64 @@
+---
+title: "Distribution"
+output: html_notebook
+---
+
+## Central limit theorem
+
+```{r}
+library(ggplot2)
+N <- 100
+set.seed(100)
+
+## Binomial
+tmp_binom <- function(n, N, prob) {
+  cbind(n = n, mean = round(rbinom(n = N, size = n, prob = prob)/n, 1))
+}
+p <- as.data.frame(do.call(rbind, lapply(c(1, 5, 10, 1000), function(x) tmp_binom(n = x, N = N, prob = 0.4))))
+ggplot(data = p, aes(x = mean)) + 
+  #geom_histogram(aes(y = ..density..), binwidth = 0.1) + 
+  #geom_density() +
+  #geom_histogram(binwidth = 0.1) +
+  geom_bar(width = 0.1) +
+  xlab("Tỷ lệ % nữ") + ylab("Tần số") +
+  facet_grid(~ n) +
+  theme_bw()
+ggsave(filename = file.path("figure", "distribution_1.png"), width = 10, height = 3)
+
+## Poker
+tmp_poker <- function(n, N) {
+  pop <- rep(1:10, times = 4)
+  cbind(n = n, mean = round(sapply(1:N, function(x) {mean(sample(x = pop, size = n, replace = TRUE))}), 1))
+}
+poker <- as.data.frame(do.call(rbind, lapply(c(1, 5, 10, 1000), function(x) tmp_poker(n = x, N = N))))
+ggplot(data = poker, aes(x = mean)) + 
+  #geom_histogram(aes(y = ..density..), binwidth = 0.1) + 
+  #geom_density() +
+  #geom_histogram(binwidth = 0.1) +
+  geom_bar(width = 0.1) +
+  xlab("Điểm trung bình") + ylab("Tần số") +
+  facet_grid(~ n) +
+  theme_bw()
+ggsave(filename = file.path("figure", "distribution_2.png"), width = 10, height = 3)
+
+## Normal: mean = 5, sd = 1.5
+dat <- rbind(data.frame(dis = "N(5, 1.5)",
+                  x = seq(from = -5, to = 15, length = 1000),
+                  y = (1/(sqrt(2 * pi * (1.5^2)))) * (exp(1)^(-(x - 5)^2/(2 * (1.5^2))))),
+             data.frame(dis = "N(0, 1)",
+                  x = seq(from = -3, to = 3, length = 1000),
+                  y = (1/(sqrt(2 * pi))) * (exp(1)^(-(x^2)/2))))
+dat$y2 <- ifelse(dat$dis == "N(5, 2)", dnorm(dat$x, mean = 5, sd = 1.5), dnorm(dat$x, mean = 0, sd = 1))
+
+ggplot(data = dat, aes(x = x, y = y)) +
+  #geom_polygon() +
+  geom_line(aes(y = y2), col = "red") +
+  facet_grid(~ dis) +
+  ylim(0, 0.6) +
+  theme_bw()
+ggsave(filename = file.path("figure", "distribution_3.png"), width = 10, height = 3)
+
+
+ggsave(filename = file.path("figure", "distribution_4.png"), width = 4, height = 4)
+```
+
