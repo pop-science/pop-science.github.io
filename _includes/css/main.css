@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
 }
 
 p {
@@ -46,10 +47,6 @@ p {
 li {
   font-family: 'Quicksand', sans-serif;
     /*font-weight: 100;*/
-}
-
-body {
-      font-family: 'Quicksand', sans-serif;
 }
 
 hr.star-light {
