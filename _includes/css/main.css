@@ -26,6 +26,15 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+a.member-link,
+a.member-link:hover,
+a.member-link:focus,
+a.member-link:active {
+    outline: 0;
+    color: #fff;
+}
+
+
 h1,
 h2,
 h3,
