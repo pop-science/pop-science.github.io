@@ -6,7 +6,6 @@ description: ""
 keywords: "khoa học, y học, y tế công cộng, truyền thông"
 skills: "Nhóm hoạt động cộng đồng phi lợi nhuận"
 meta_author: Lam Phung Khanh
-iis_slider_array: []
 
 # Google webmaster tools
 google_verify:
@@ -56,5 +55,5 @@ address:
 #credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
 permalink: pretty

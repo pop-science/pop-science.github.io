@@ -31,8 +31,7 @@
     {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
     
     <!-- Slider CSS -->
-    <link rel="stylesheet" href="{{ "/css/Ideal-Image-Slider/ideal-image-slider.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/css/Ideal-Image-Slider/themes/default/default.css" | relative_url }}">
+    {% include slider_styles.html %}
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" }}">
