@@ -1,0 +1,27 @@
+# example slider
+- selector: summerschool2018_slider
+  captions: false
+  images:
+    - src: /img/news/3.Cabin crew.jpg
+      alt: Ban tổ chức
+    - src: /img/news/4.HOANGQUOCTUONG.jpg
+      alt: image two
+    - src: /img/news/5.HOANGMINHTUVAN.jpg
+      alt: image three
+    - src: /img/news/6.HOANGTHITHUTRANG.jpg
+      alt: image three
+    - src: /img/news/7.LETHIQUYNHNHI.jpg
+      alt: image three
+    - src: /img/news/8.NGUYENMINHNGUYET.jpg
+      alt: image three
+    - src: /img/news/9.PHAMLEDUY.jpg
+      alt: image three
+    - src: /img/news/10.PHUNGKHANHLAM.jpg
+      alt: image three
+    - src: /img/news/12.QUYNHANH.jpg
+      alt: image three
+    - src: /img/news/11.register_final.jpg
+      alt: image three
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
