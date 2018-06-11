@@ -8,7 +8,7 @@
       alt: image two
     - src: /img/news/5.HOANGMINHTUVAN.jpg
       alt: image three
-    - src: /img/news/6.HOANGTHITHUTRANG.jpg
+    - src: /img/news/6.NGUYENHOANGTHUTRANG.jpg
       alt: image three
     - src: /img/news/7.LETHIQUYNHNHI.jpg
       alt: image three
@@ -22,6 +22,31 @@
       alt: image three
     - src: /img/news/11.register_final.jpg
       alt: image three
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: toadamKHCC_slider
+  captions: true
+  images:
+    - src: /img/post/20180520_Toadam_KHCC/01.jpg
+      alt: TS. Giang Thúy Minh
+    - src: /img/post/20180520_Toadam_KHCC/04.jpg
+      alt: TS.BS. Phùng Khánh Lâm
+    - src: /img/post/20180520_Toadam_KHCC/05.jpg
+      alt: ThS. Lê Thị Quỳnh Nhi
+    - src: /img/post/20180520_Toadam_KHCC/08.jpg
+      alt: TS. Võ Bích Hiển
+    - src: /img/post/20180520_Toadam_KHCC/02.jpg
+      alt: Giới thiệu
+    - src: /img/post/20180520_Toadam_KHCC/03.jpg
+      alt: Giới thiệu
+    - src: /img/post/20180520_Toadam_KHCC/06.jpg
+      alt: Thảo luận
+    - src: /img/post/20180520_Toadam_KHCC/07.jpg
+      alt: Thảo luận
+    - src: /img/post/20180520_Toadam_KHCC/09.jpg
+      alt: Ban tổ chức
   settings:
     height: "'auto'"
     effect: "'fade'"
