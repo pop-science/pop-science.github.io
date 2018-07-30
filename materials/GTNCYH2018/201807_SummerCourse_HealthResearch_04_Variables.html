@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Biến số</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Phùng Khánh Lâm" />
+    <link href="libs/remark-css-0.0.1/hygge-duke.css" rel="stylesheet" />
+    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+    <link rel="stylesheet" href="default02.css" type="text/css" />
+    <link rel="stylesheet" href="default-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="table00.css" type="text/css" />
+    <link rel="stylesheet" href="libs/cc-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="libs/figure-captions.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+class: inverse, middle
+
+# Biến số 
+
+.footnote[
+Phùng Khánh Lâm
+
+Khóa hè Giói thiệu nghiên cứu y học, Bà Rịa, 27-29/07/2018
+]
+---
+name: variable
+
+## Biến số
+
+---
+template: variable
+
+Các biến số trong bảng dữ liệu sau đây?
+
+
+&lt;table class="table table-striped" style="margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; STT &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Giới tính &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Tiểu cầu T0 &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Tiểu cầu T1 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nam &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 500 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 400 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nữ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 300 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 200 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nữ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 450 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 350 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nam &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 425 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 400 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+template: variable
+
+Một **bảng dữ liệu** (dataset) chứa các **giá trị** (value)
+
+Mỗi **giá trị** thuộc về một **biến số** (variable) và một **đơn vị quan sát** (observation unit)
+
+Một **biến số** bao gồm tất cả các **giá trị** có cùng **thuộc tính** (attribute)
+
+---
+template: variable
+
+&lt;table class="table table-striped" style="margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; STT &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Giới tính &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Tiểu cầu T0 &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Tiểu cầu T1 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nam &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 500 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 400 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nữ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 300 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 200 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nữ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 450 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 350 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nam &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 425 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 400 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+template: variable
+
+Bảng dữ liệu "gọn gàng" (tidy data)
+
+* Mỗi **biến số** tạo thành một **cột**
+* Mỗi **đơn vị quan sát** tạo thành một **hàng**
+* Mỗi **loại đối tượng quan sát** tạo thành một **bảng**
+* Nếu có nhiều bảng, mỗi bảng cần có một cột để có thể kết nối với nhau
+
+.footnote[
+Wickham H. (2014) Tidy data. JSS; 59(10)
+]
+---
+template: variable
+
+
+&lt;table class="table table-striped" style="margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; STT &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Giới tính &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Thời điểm &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Tiểu cầu &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nam &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; T0 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 500 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nữ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; T0 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 300 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nữ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; T0 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 450 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nam &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; T0 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 425 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nam &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; T1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 400 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nữ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; T1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 200 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nữ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; T1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 350 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Nam &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; T1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 400 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+template: variable
+
+Vì sao cần bảng dữ liệu "gọn gàng"?
+
+* Cách đơn giản và chuẩn mực để cấu trúc dữ liệu
+* Giúp trích xuất nhanh chóng biến số cần thiết
+* Đặc biệt phù hợp với R
+
+.footnote[
+Wickham H. (2014) Tidy data. JSS; 59(10)
+]
+
+---
+
+## Phân loại biến số (theo tính chất)
+
+--
+
+Có những loại biến số nào?
+
+--
+
+**Nhị giá** - có 2 giá trị:  tử vong
+
+**Phân nhóm** -  có hơn 2 giá trị: quốc gia, loại dịch truyền
+
+**Thứ tự** - các giá trị có thứ tự: nhóm tuổi, độ nặng của bệnh
+                  
+**Liên tục** - có đơn vị: tuổi, nhiệt độ
+
+---
+
+## Phân loại biến số (theo vai trò)
+
+--
+
+Biến số độc lập và biến số phụ thuộc
+
+--
+
+**Biến số độc lập**: biến số gây ra tác động trên biến số phụ thuộc
+
+* Yếu tố nguy cơ
+* Can thiệp/điều trị
+
+--
+
+**Biến số phụ thuộc**: biến số chịu ảnh hưởng từ biến số độc lập
+
+* Kết cuộc lâm sàng
+
+---
+
+## Mã hóa biến số
+
+--
+
+Các anh chị thường mã hóa biến số như thế nào?
+
+--
+
+#### Biến số phân nhóm
+
+Thường được mã hóa thành con số
+
+Tuy nhiên, điều đó không biến chúng thành biến số liên tục
+
+Format data, data dictionary
+
+--
+
+#### Dữ liệu bị mất
+
+Thường được mã hóa riêng (trong R: NA - not available) 
+
+Cần mô tả số lượng dữ liệu bị thiếu cho từng biến số  
+
+Thường bị loại ra khỏi phân tích (do người thực hiện, hoặc do phần mềm phân tích)
+
+(có thể gây ra sai lệch khi bị loại ra khỏi phân tích)
+
+Nếu &gt;10% cần quan tâm đến lý do bị mất và nhờ hỗ trợ của chuyên gia thống kê 
+
+---
+
+## Lựa chọn biến số cho phân tích
+
+--
+
+Các anh chị lựa chọn biến số cho phân tích như thế nào?
+
+--
+
+#### Biến số chính
+
+* Biến số độc lập/biến số phụ thuộc
+* Dựa vào câu hỏi nghiên cứu/giả thuyết nghiên cứu
+
+--
+
+#### Các yếu tố gây nhiễu
+
+* Dựa vào y văn/kiến thức chuyên ngành
+
+--
+
+Số lượng biến số thường bị giới hạn bởi cỡ mẫu và đặc điểm của biến số phụ thuộc
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

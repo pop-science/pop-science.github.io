@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ước tính cỡ mẫu</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Phùng Khánh Lâm" />
+    <link href="libs/remark-css-0.0.1/hygge-duke.css" rel="stylesheet" />
+    <link rel="stylesheet" href="default02.css" type="text/css" />
+    <link rel="stylesheet" href="default-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="table00.css" type="text/css" />
+    <link rel="stylesheet" href="libs/cc-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="libs/figure-captions.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+class: inverse, middle
+
+# Ước tính cỡ mẫu
+
+.footnote[
+Phùng Khánh Lâm
+
+Khóa hè Giói thiệu nghiên cứu y học, Bà Rịa, 27-29/07/2018
+]
+---
+
+## Cỡ mẫu nghiên cứu
+
+&lt;img src="figures/samplesize.png" width="1000" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Cỡ mẫu lý thuyết
+
+* Các yếu tố ảnh hưởng
+
+* Cỡ mẫu để ước lượng
+
+* Cỡ mẫu để so sánh
+
+---
+
+## Công cụ
+
+--
+
+* Công thức tính cỡ mẫu
+    + http://ykhoanet.azurewebsites.net/baigiang/lamsangthongke/lstk_uoctinhcomau.pdf
+    + https://www.crcpress.com/Sample-Size-Calculations-in-Clinical-Research-Third-Edition/Chow-Shao-Wang-Lokhnygina/p/book/9781138740983
+    + https://www.crcpress.com/Sample-Sizes-for-Clinical-Trials/Julious/p/book/9781584887393
+    + https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2551061/pdf/bmj00616-0039.pdf
+    + http://onlinelibrary.wiley.com/doi/10.1002/sim.1783/full
+    + http://onlinelibrary.wiley.com/doi/10.1002/sim.5381/full
+
+--
+
+* Phần mềm tính cỡ mẫu
+    + http://biostat.mc.vanderbilt.edu/wiki/Main/PowerSampleSize
+    + https://wwwn.cdc.gov/epiinfo/user-guide/StatCalc/introduction.html
+    + http://www.gpower.hhu.de/en.html
+    + R, Stata, SPSS, SAS
+    
+--
+
+* Giả lập
+    + R, Stata, SAS
+    
+--
+
+* Chuyên gia thống kê
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

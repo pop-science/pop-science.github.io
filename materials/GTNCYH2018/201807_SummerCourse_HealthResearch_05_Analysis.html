@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phân tích số liệu</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Phùng Khánh Lâm" />
+    <link href="libs/remark-css-0.0.1/hygge-duke.css" rel="stylesheet" />
+    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+    <link rel="stylesheet" href="default02.css" type="text/css" />
+    <link rel="stylesheet" href="default-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="table00.css" type="text/css" />
+    <link rel="stylesheet" href="libs/cc-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="libs/figure-captions.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+class: inverse, middle
+
+# Phân tích số liệu
+
+.footnote[
+Phùng Khánh Lâm
+
+Khóa hè Giói thiệu nghiên cứu y học, Bà Rịa, 27-29/07/2018
+]
+---
+
+## Các bước phân tích số liệu
+
+--
+
+#### Sau khi đã thu thập dữ liệu, các anh chị sẽ làm gì?
+
+--
+
+* Giai đoạn ban đầu
+    + Kiểm tra và làm sạch dữ liệu
+    + Chuẩn bị dữ liệu cho phân tích thực sự
+* Giai đoạn phân tích thực sự
+
+--
+
+#### Bước nào quan trọng/tốn nhiều thời gian nhất?
+
+---
+name: initial_data_analysis
+
+## Giai đoạn ban đầu
+
+---
+
+template: initial_data_analysis
+
+#### Kiểm tra và làm sạch dữ liệu
+
+--
+
+* Mục tiêu: xây dựng bộ dữ liệu sạch cho phân tích
+
+* Tìm lỗi
+    + Thường gặp: mất/lặp lại/giá trị ngoại lai/không tương hợp 
+    + Phương pháp: thống kê mô tả (số, biểu đồ)
+    
+* Chẩn đoán lỗi
+    + Phân loại: lỗi thực sự/không phải lỗi/không chắc 
+    + Cần kiến thức chuyên môn
+    
+* Sửa lỗi   
+    + Sửa/Xóa/Không thay đổi
+    + Mọi thay đổi trong bộ dữ liệu đều phải được ghi nhận lại
+    + Cập nhật thay đổi trong bộ dữ liệu gốc
+
+---
+template: initial_data_analysis
+
+#### Chuẩn bị dữ liệu cho phân tích
+
+--
+
+* Mục tiêu: chuẩn bị bộ dữ liệu phù hợp cho phân tích
+
+* Tạo thêm các biến số mới
+    + Tạo thêm các biến số mới dựa trên các biến số sẵn có
+    + Định dạng biến số
+    + Phân nhóm biến số
+
+* Chuyển dạng dữ liệu cho phù hợp với phân tích
+    + Kết hợp các bảng dữ liệu với nhau
+    + Dữ liệu dạng dài hay rộng
+
+---
+name: final_data_analysis
+
+## Giai đoạn phân tích thực sự
+
+--
+
+#### Kế hoạch phân tích
+
+--
+
+* Thông tin cơ bản: người viết, ngày viết, phiên bản
+
+* Mục tiêu của phân tích
+
+* Phương pháp phân tích cho từng mục tiêu
+    + Dân số phân tích
+    + Nguồn dữ liệu, chuẩn bị dữ liệu
+    + Công cụ phân tích
+    + Các biến số liên quan &amp; định nghĩa
+    + Phương pháp phân tích
+        - Mô tả
+        - Mô hình/kiểm định
+    + Các vấn đề khác: dữ liệu bị mất, phân tích kiểm tra
+    
+* Bảng/hình câm
+
+* Tài liệu tham khảo
+
+* Phụ lục
+
+---
+
+## Các loại phân tích số liệu 
+
+* Phân tích mô tả
+
+* Phân tích diễn dịch
+
+---
+class: inverse, middle
+
+# Phân tích mô tả
+
+.footnote[
+Phùng Khánh Lâm
+
+Khóa hè Giói thiệu nghiên cứu y học, Bà Rịa, 27-29/07/2018
+]
+---
+name: anscombe
+
+## Hãy mô tả dữ liệu mà bạn đang có!!!
+
+.footnote[
+Anscombe FJ (1973) Am Stat,27(1):17–21. 
+]
+---
+template: anscombe
+
+&lt;table class="table table-striped" style="margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; NC &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; n &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; x - TB &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; x - TV &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; x - ĐLC &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; y - TB &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; y - TV &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; y - ĐLC &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; Nghiên cứu 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 11 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 3.316625 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 7.500909 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 7.58 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 2.031568 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; Nghiên cứu 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 11 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 3.316625 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 7.500909 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 8.14 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 2.031657 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; Nghiên cứu 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 11 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 3.316625 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 7.500000 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 7.11 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 2.030424 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; Nghiên cứu 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 11 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 8 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 3.316625 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 7.500909 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 7.04 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 2.030578 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+template: anscombe
+
+&lt;img src="201807_SummerCourse_HealthResearch_05_Analysis_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Phân tích mô tả
+
+* Bước đầu tiên trong mọi phân tích thống kê
+
+* Mô tả ngắn gọn đặc tính của mẫu:
+    + con số
+    + biểu đồ
+
+* Góp phần quyết định hướng phân tích
+
+---
+
+## Phụ thuộc vào loại biến số
+
+* Biến số phân nhóm
+    + Số: tần số và tỷ lệ %
+    + Biểu đồ: Biểu đồ cột
+
+* Biến số liên tục
+    + Số
+        - Mô tả vị trí tập trung: trung bình, trung vị
+        - Mô tả độ phân tán: độ lệch chuẩn, khoảng IQR
+        
+    + Biểu đồ: **histogram**, **boxplot**
+
+---
+class: inverse, middle
+
+# Phân tích diễn dịch
+
+.footnote[
+Phùng Khánh Lâm
+
+Khóa hè Giói thiệu nghiên cứu y học, Bà Rịa, 27-29/07/2018
+]
+---
+
+## Phân tích diễn dịch
+
+* Giả thuyết thống kê
+
+* Sử dụng phép kiểm thống kê
+
+* Sử dụng mô hình thống kê
+
+---
+
+## Giả thuyết thống kê
+
+--
+
+.pull-left[
+
+#### Giả thuyết nghiên cứu
+
+* Tuyên bố về mối liên hệ mong đợi giữa các biến số
+
+]
+
+.pull-right[
+
+#### Giả thuyết thống kê
+
+* Giả thuyết KHÔNG
+
+]
+
+.footnote[
+Haber J. Chapter 2: Research Questions, Hypotheses and Clinical Questions. In: Nursing Research: : Methods and Critical Appraisal for Evidence-Based Practice. 2009. p. 27–55. 
+]
+
+---
+name: hypothesis_testing
+
+## Phép kiểm thống kê
+
+---
+template: hypothesis_testing
+
+### Các bước thực hiện
+
+1. Xác định giả thuyết muốn chứng minh
+2. Xác định giả thuyết **KHÔNG** (null hypothesis)
+3. Tính thông số thống kê dựa vào dữ liệu trên mẫu
+4. Tính test statistics (phụ thuộc vào phép kiểm định)
+5. Tính trị số p
+6. Lý giải kết quả, rút ra kết luận
+
+---
+template: hypothesis_testing
+
+### Lựa chọn phép kiểm thống kê
+
+|  Tính chất                            |     Độc lập                 |      Bắt cặp        |
+|:-------------------------------------:|:---------------------------:|:-------------------:|
+| Liên tục, phân phối bình thường       | t-test                      | t-test bắt cặp      | 
+|                                       | ANOVA                       |                     |
+| Liên tục, phân phối không bình thường | Wilcoxon rank-sum/Mann Whitney U | Wilcoxon signed-rank |
+|                                       | Kruskal-Wallis              | |
+| Phân nhóm                             | Chi-squared                 | McNemar             |
+|                                       | Fisher's Exact              |                     |
+
+
+---
+name: statistical_models
+
+## Mô hình thống kê
+
+---
+template: statistical_models
+
+### Các bước thực hiện
+
+1. Giả định mô hình về mối liên hệ giữa biến số phụ thuộc và biến số độc lập
+2. Đánh giá sự phù hợp của mô hình
+3. Ước tính các thông số từ mô hình (ước lượng điểm, ước lượng khoảng)
+4. Kiểm định giá trị các thông số
+5. Lý giải kết quả, rút ra kết luận
+
+---
+template: statistical_models
+
+### Lựa chọn mô hình thống kê
+
+|  Biến số phụ thuộc                    | Mô hình thường dùng  |
+|:-------------------------------------:|:--------------------:|
+| Liên tục                              | Hồi quy tuyến tính   | 
+|                                       |                      |
+| Nhị giá                               | Hồi quy logistic     |
+|                                       |                      |
+| Số đếm                                | Hồi quy Poisson      |
+|                                       |                      |
+| Thời gian sống còn                    | Hồi quy Cox          |
+
+---
+
+## Phép kiểm vs. Mô hình
+
+--
+
+.pull-left[
+
+### Phép kiểm thống kê
+
+* Kết quả:
+    + Bác bỏ/chấp nhận giả thuyết thống kê (p)
+    
+* Không cho phép hiệu chỉnh cho các yếu tố gây nhiễu
+
+* Giả định: 
+    + Phân phối của biến số
+]
+
+.pull-right[
+
+### Mô hình thống kê
+
+* Kết quả:
+    + Bác bỏ/chấp nhận giả thuyết thống kê (p)
+    + Độ lớn của mối liên hệ (khoảng tin cậy)
+    
+* Cho phép hiệu chỉnh cho các yếu tố gây nhiễu
+    
+* Giả định:
+    + Phân phối của biến số phụ thuộc
+    + Mối liên hệ giữa các biến số
+]
+
+---
+
+### Ý nghĩa thống kê vs. ý nghĩa lâm sàng
+
+--
+
+&lt;table class="table table-striped" style="margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; NC &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Thuốc &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Giá &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; n &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Thay đổi cholesterol (mg/%) &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; KTC 95% &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Trị số p &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; A &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Rẻ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 30 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -40 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; (-118, 38) &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.32 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; A &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Rẻ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 3000 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -40 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; (-47, -32) &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; &amp;lt;0.001 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; B &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Rẻ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 40 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -20 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; (-84, 44) &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.54 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; B &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Rẻ &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 4000 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; (-8, 4) &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.54 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; C &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; Đắt &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5000 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -5 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; (-8, -1) &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.012 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
