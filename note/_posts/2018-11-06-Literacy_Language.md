@@ -4,10 +4,6 @@ title: Giúp trẻ đọc và phát triển ngôn ngữ tại nhà
 date: 2018-11-06
 author: Phùng Khánh Lâm
 category: treem
-image_sliders:
-  - read_aloud
-  - fluency
-  - ESL
 ---
 
 Vừa được dự một tiếng đồng hồ rất hữu ích để học hỏi về cách giúp trẻ đọc và học ngôn ngữ tại nhà từ các thầy cô giáo của trường tiểu học Benjamin Franklin tại Lawrence Township. Xin được chia sẻ với những ai quan tâm về một số ý mà mình thấy rất hữu ích:
