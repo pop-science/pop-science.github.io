@@ -14,8 +14,6 @@ Vừa được dự một tiếng đồng hồ rất hữu ích để học hỏ
 
 ### Read aloud
 
-{% include slider.html selector="read_aloud" %}
-
 * Theo tốc độ của trẻ
 * Để trẻ tự do (không nhất thiết phải ngồi yên một chỗ, trẻ có thể đứng/ngồi/nằm tuỳ theo sở thích của trẻ)
 * Tương tác chủ động với trẻ, đặt câu hỏi để khuyến khích trẻ trao đổi: mô tả hình vẽ, thể hiện cảm xúc, thể hiện suy nghĩ, dự đoán nội dung câu chuyện.
@@ -27,8 +25,6 @@ Vừa được dự một tiếng đồng hồ rất hữu ích để học hỏ
 
 ### Fluency
 
-{% include slider.html selector="fluency" %}
-
 * "Fluency" bao gồm tới 4 yếu tố khác nhau: chính xác (đọc và phát âm chính xác), tốc độ (đọc với tốc độ vừa phải), diễn cảm (biểu lộ được cảm xúc qua ngữ điệu khi đọc), hiểu (trẻ hiểu điều mà trẻ đang đọc).
 * Giúp trẻ phân biệt "word" và "sound": cho trẻ đọc từng từ thật chậm để trẻ có thể nhận biết các âm trong từ đó.
 * Tận dụng những từ đồng âm để giúp trẻ vừa xây dựng vốn từ, vừa quen với các âm thường gặp. Có thể chơi trò "xoá chi tiết": vẽ hình trên bảng, đọc từng từ đã chọn sẵn và yêu cầu trẻ xoá chi tiết trên hình vẽ có âm giống từ mà bạn đọc.
@@ -38,8 +34,6 @@ Vừa được dự một tiếng đồng hồ rất hữu ích để học hỏ
 * Nên thực hành thường xuyên tại nhà, nhưng không nên ép buộc mà tuỳ tình huống cụ thể và sở thích của trẻ. Làm sao cho trẻ cảm thấy thích thú với những giây phút tương tác như vậy.
 
 ### Học tiếng Anh như ngôn ngữ thứ hai
-
-{% include slider.html selector="ESL" %}
 
 * Lời khuyên mà cô giáo dành cho cha mẹ không phải là người bản địa là tận dụng thời gian tại nhà để giao tiếp với trẻ bằng ngôn ngữ mẹ đẻ của mình (đọc, nghe, nói, viết). Trẻ hoàn toàn có thể ứng dụng những kỹ năng có được khi sử dụng tiếng mẹ đẻ sang việc sử dụng tiếng Anh.
 
