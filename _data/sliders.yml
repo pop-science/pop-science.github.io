@@ -52,3 +52,70 @@
   settings:
     height: "'auto'"
     effect: "'fade'"
+    
+- selector: read_aloud
+  captions: true
+  images:
+    - src: /img/post/20181106_Literacy_Language/read_aloud/20181106_201844_online.jpg
+      alt: Making the most of reading aloud
+    - src: /img/post/20181106_Literacy_Language/read_aloud/20181106_201859_online.jpg
+      alt: Reading aloud 15 minutes
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+    
+- selector: fluency
+  captions: true
+  images:
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_190617_online.jpg
+      alt: Phonemic awareness
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_190621_online.jpg
+      alt: Rhyme-away
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_190626_online.jpg
+      alt: Making words with magnetic letters
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_190630_online.jpg
+      alt: Repeated reading to improve fluency speed
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_190636_online.jpg
+      alt: Fluency
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_190640_online.jpg
+      alt: Why can't I skip my 20 minutes of reading tonight?
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_201926_online.jpg
+      alt: What is fluency?
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_201945_online.jpg
+      alt: Help your child become a better reader (fiction text)
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_202012_online.jpg
+      alt: Help your child become a better reader (nonfiction text)
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_202029_online.jpg
+      alt: Reading at home
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_202049_online.jpg
+      alt: Reading at home can make a huge difference
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_202120_online.jpg
+      alt: 15-20 minutes is plenty for a beginning reader!
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_202143_online.jpg
+      alt: 25 ways to use magnetic letters at home (1)
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_202157_online.jpg
+      alt: 25 ways to use magnetic letters at home (2)
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_202225_online.jpg
+      alt: What is phonemic awareness?
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_202256_online.jpg
+      alt: What can parents do to promote phonemic awareness at home?
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_202442_online.jpg
+      alt: Tips for parents of kindergartners
+    - src: /img/post/20181106_Literacy_Language/fluency/20181106_202500_online.jpg
+      alt: Tips for parents of second graders
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+    
+- selector: ESL
+  captions: true
+  images:
+    - src: /img/post/20181106_Literacy_Language/ESL/20181106_202515_online.jpg
+      alt: Creating a print-rich environment in your native language
+    - src: /img/post/20181106_Literacy_Language/ESL/20181106_202534_online.jpg
+      alt: Tips for parents of English language learners (1)
+    - src: /img/post/20181106_Literacy_Language/ESL/20181106_202609_online.jpg
+      alt: Tips for parents of English language learners (2)
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
