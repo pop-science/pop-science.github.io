@@ -6,4 +6,4 @@ author: Phùng Khánh Lâm
 category: reading
 ---
 
-![Trẻ học được gì khi đọc một cuốn sách]({{ site.url }}/img/post/20181107_Benefit_reading/docsachtainha.png){:height="80%" width="80%"}
+![Trẻ học được gì khi đọc một cuốn sách]({{ site.url }}/img/post/20181107_Benefit_reading/docsachtainha2.png){:height="80%" width="80%"}
